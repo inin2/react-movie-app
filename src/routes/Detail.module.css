@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+}
+
+.movie {
+  display: flex;
+  align-items: flex-start;
+  width: 1024px;
+  padding: 20px;
+  color: #adaeb9;
+  font-weight: 300;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+	font-size: 1.2rem;
+}
+
+.movie__img {
+  width: 400px;
+  margin-right: 30px;
+}
+
+.movie__title,
+.movie__year {
+  margin: 0;
+  font-weight: 300;
+}
+
+.movie__title {
+  color: #2c2c2c;
+	font-size: 2rem;
+}
+
+.movie__year {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.movie__rate {
+  display: inline-block;
+}
+
+.movie__genres {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie__genres li {
+  margin-right: 10px;
+}
+
+.movie__data {
+  position: relative;
+}
+
+button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  border: none;
+  background-color: white;
+  box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+  border-radius: 50%;
+}
+
+button:active {
+  transform: scale(0.9);
+}
