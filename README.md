@@ -3,4 +3,4 @@
 <img src="./readme_source/react-movie-app.gif" alt="preview">
 
 ## 실행
-https://inin2.github.io/react-movie-app
+https://jjung-in.github.io/react-movie-app
